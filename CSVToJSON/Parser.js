@@ -1,5 +1,5 @@
-require('papaparse');
 const Reader=require('./Reader');
+var Papa=require('papaparse');
 console.log('Program is parsing data.');
 (async ()=>{
     try{
